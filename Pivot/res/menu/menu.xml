@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/new_game"
+        android:title="New Game"/>
+    <item
+        android:id="@+id/showHelp"
+        android:title="Help"/>
+    <item
+        android:id="@+id/restart"
+        android:title="Restart Level"/>
+
+</menu>
