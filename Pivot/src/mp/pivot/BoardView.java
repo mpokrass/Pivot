@@ -1,4 +1,6 @@
-package com.jm.pivot;
+package mp.pivot;
+
+import com.jm.pivot.R;
 
 import android.content.Context;
 import android.content.res.Resources;

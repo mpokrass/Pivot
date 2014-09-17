@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jm.pivot"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="2"
+    android:versionName="1.1" >
 
     <uses-sdk android:minSdkVersion="10" />
 
@@ -9,7 +9,7 @@
         android:icon="@drawable/pivot_icon"
         android:label="@string/app_name" >
         <activity
-            android:name=".PivotActivity"
+            android:name="mp.pivot.PivotActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MazeActivity"
+            android:name="mp.pivot.MazeActivity"
             android:screenOrientation="portrait" >
         </activity>
     </application>

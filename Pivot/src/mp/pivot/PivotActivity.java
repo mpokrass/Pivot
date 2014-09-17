@@ -1,4 +1,6 @@
-package com.jm.pivot;
+package mp.pivot;
+
+import com.jm.pivot.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;

@@ -1,4 +1,6 @@
-package com.jm.pivot;
+package mp.pivot;
+
+import android.widget.Toast;
 
 /**
  * Creates an object that keeps track of a balls coordinates and velocity,
@@ -16,6 +18,8 @@ public class Ball
 	private float xVel;
 
 	private float yVel;
+	
+	//private static final float maxVel = 4f;
 
 	private final float UPDATE_TIME = 0.03f;
 
@@ -73,8 +77,8 @@ public class Ball
 	public int move(float xAccel, float yAccel)
 	{
 		// Update the velocity
-		xVel += (UPDATE_TIME) * xAccel;
-		yVel += (UPDATE_TIME) * yAccel;
+		xVel += (UPDATE_TIME) * xAccel*0.3;
+		yVel += (UPDATE_TIME) * yAccel*0.3;
 		// Get new coordinate
 		float newX = xCoord + (UPDATE_TIME) * (xVel) * 3000f;
 		float newY = yCoord + (UPDATE_TIME) * (yVel) * 3000f;

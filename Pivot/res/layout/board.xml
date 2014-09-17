@@ -4,7 +4,7 @@
     android:background="@drawable/floor_resized"
     android:orientation="vertical" >
 
-    <com.jm.pivot.BoardView
+    <mp.pivot.BoardView
         android:id="@+id/boardView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
